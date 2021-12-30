@@ -269,4 +269,12 @@ animation-name: slidein1;
      transition-delay: .6s;
     transform: translateX(-100px);
   }
+.padding{
+   padding: 5% 5%;
+ }
+#foot{
+  background-color: #383838;
+  color:  #ff6666f1;
+
+}
                
