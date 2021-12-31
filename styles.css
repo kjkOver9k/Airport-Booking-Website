@@ -111,5 +111,8 @@ animation-name: slidein1;
 #t {
     transition: background-color 0.5s ease;
   }
+#t1 {
+    transition: background-color 0.5s ease;
+  }
   
                
