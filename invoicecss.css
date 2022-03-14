@@ -183,7 +183,7 @@ a {
     Styles for the billing table
 ------------------------------------- */
 .invoice {
-    margin: 40px auto;
+    margin: 0px auto;
     text-align: left;
     width: 80%;
 }
