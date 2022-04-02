@@ -2,7 +2,7 @@
 
 <html><head>
     <style>
-         body{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdh4a9WaHmxYA7YGdaIsJ3eLu2yQ7kt6k0PQ&usqp=CAU);}
+        
          div{position: relative;
             margin: 125px 250px 250px 250px;
             background-color: cornsilk;
@@ -46,16 +46,24 @@
        <br>
        <h1>LOGO HERE</h1>
         
-        <form action = "">
-            <label><h4>Enter username</h4><input type="text" value=""></label>
+        <form action = "/SignUp" method="POST">
+            <label><h4>Enter username</h4><input type="text" name="name"></label>
             <br>
             <label><h4>Enter password</h4><input type="password" id="pass" name="password"
-            minlength="8" required></label>
+            minlength="2" required></label>
             <br>
             <label><h4>Re-enter password</h4><input type="password" id="pass" name="reenterpassword"
-                minlength="8" required></label>
-            
-          
+                minlength="2" required></label>
+                <br>
+            <label><h4>Email</h4><input type="text"  name="email" ></label>
+            <br>
+            <label><h4>Phone Number</h4><input type="text"  name="phoneNo"
+              minlength="10" required></label>
+                    
+                    
+                    
+
+              <br>
            <br>
             <input type="submit" value="Sign up">
             
@@ -66,10 +74,9 @@
                         Keep me signed in </label>
                
             
+                
                 <br>
-                <a href = "forgotpassword.html"> Forgot password? </a>
-                <br>
-                <a href = "signin.html"> Already a user? </a>
+                <a href = "http://localhost:3000/signin.html"> Already a user? </a>
 
 
             </form>
